@@ -34,6 +34,17 @@ body, html {
   margin-top: 5px;
 }
 
+.homelink {
+  color: #e3233e;
+  font-size: 20px;
+
+}
+
+.male {
+  font-size: 50px;
+  color: green;
+}
+
 .genrelink { 
     margin-bottom: 0px;
     margin-left: 100px;
