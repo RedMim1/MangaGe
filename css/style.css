@@ -16,6 +16,8 @@ body, html {
   /* The image used */
   /* Full height */
   height: 100%; 
+  position: relative;
+  top: 0px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -108,9 +110,8 @@ body, html {
     max-width: 1500px;
     height: 1430px;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 150px;
-    right: 40px;
     background-color: #201e1e;
     border-radius: 1%;
   }
