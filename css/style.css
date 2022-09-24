@@ -152,6 +152,11 @@ body, html {
     border-radius: 1%;
   }
 
+  .notfound strong{
+    position: absolute;
+    font-size: 50px;
+  }
+
   .hover {
     padding: 5px;
   }
@@ -163,7 +168,9 @@ body, html {
 
   .mangavolume {
     padding: 5px;
-    margin-top: 200px
+    top: 550px;
+    width: 200px;
+    height: 5px;
   }
 
   .mangavolume-box {
@@ -246,6 +253,22 @@ body, html {
   .manga-slider-img img {
     width: 220px;
     height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1%;
+  }
+
+  .manga-volume-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 1%;
+    margin-top: 120px;
+    margin-right: 850px;
+  }
+
+  .manga-volume-img img {
+    width: 300px;
+    height: 400px;
     object-fit: cover;
     object-position: center;
     border-radius: 1%;
@@ -347,12 +370,24 @@ body, html {
 
   /* ***************************************** */
 
-  @media(max-width:1200px) {
-    #manga-slider,
-    #mangaspace
-    {
-      width: 90%;
-    }
+  html {
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 1280px) {
+
+  #manga-slider {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1500px;
+    height: 1430px;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    background-color: #201e1e;
+    border-radius: 1%;
   }
+}
 
   
