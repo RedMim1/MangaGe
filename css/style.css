@@ -185,6 +185,20 @@ nav .menu li a:hover{
   box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
 }
 
+.year {
+  margin-top: 265px;
+  margin-left: 2px;
+  font-size: 1.1rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  background-color: #ff9900;
+  color: #000000;
+  padding: 0px 8px 3px;
+  border-radius: 2%;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
