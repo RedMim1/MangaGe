@@ -1,271 +1,304 @@
-<!DOCTYPE html>
-<html lang="ka">
-<head>
-<title>მანგები ქართულად ნათარგმნი - MangaGe</title>
-<link rel="icon" type="" href="images/MangaGeIcon.png">
-<link rel="stylesheet" href="css/style.css">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE_edge">
-<script src="https://kit.fontawesome.com/0651baf67a.js" crossorigin="anonymous"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="მანგა, მანგები, მანგა ქართულად, მანგები ქართულად, mangage, manga, mangageco, უფასი მანგა, ქართულად მანგა, ქართულად მანგები, ქართულად ნათარგმნი მანგები, One Piece ქართულად, Chainsawman ქართულად, Hells Paradise ქართულად, Jujutsukaisen ქართულად, Death note ქართულად, მხერხავიე, ვანპისი, სიკვდილის დღიური, ჯუჯუცუკაისენი, ჯოჯოხეთის სამოთხე">
-<meta name="author" content="Redrosa">
-<meta name="description" content="წაიკითხე უამრავი სახის მანგა ქართულად კომფორტული დიზაინის ფონზე. One Piece, Chainsawman, Hells Paradise, Jujutsukaisen, Death note და კიდევ ბევრი">
-</head>
-<body>
-    <!---navigation-------------->
-    <nav> 
-        <!--logo----------------->
-        <a href="https://mangage.co/" class="logo">
-            <img src="images/MangaGeIcon.png">
-        </a>
-        <!--menu-btn--------------->
-        <input type="checkbox" class="menu-btn" id="menu-btn">
-        <label class="menu-icon" for="menu-btn">
-            <span class="nav-icon"></span>
-        </label>
-        <!--menu------------->
-        <ul class="menu">
-            <li><a href="https://mangage.co/will.html">მანგა</a></li>
-            <li><a href="https://mangage.co/will.html">ჟანრები</a></li>
-            <li><a href="https://mangage.co/will.html">კატეგორიები</a></li>
-            <li><a href="https://mangage.co/will.html">მთარგმნელები</a></li>
-            <li><a href="https://mangage.co/will.html">კონტაქტები</a></li>
-        </ul>
-        <!--search------------>
-        <div class="search">
-            <input type="text" placeholder="საძიებო სისტემა(მუშავდება)">
-            <!--search-icon------>
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-    </nav>
-    <section id="main">
-        <!--lastupdate---------->
-        <!--heading---------->
-        <h1 class="lastupdate-heading">ბოლო განახლებები</h1>
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  background-color: #201e1e;
+}
 
-        <ul id="autoWidth" class="row">
-                <!---box-1-------------------------->
-                    <!--lastupdate-box----------->
-            <div class="lastupdate-box">
-                <a href="https://mangage.co/will.html">
-                    <!--IMG-------------->
-                <div class="manga-image">
-                <div class="type">მანგა</div>
-                <img src="images/hellparadise.jpg">
-            </div>
-                <!--TEXT----------------->
-                <div class="lastupdate-box-text">
-                    <strong>ჯოჯოხეთის სამოთხე</strong>
-                    <strong>Hells Paradise/Jigokuraku</strong>
-                    <span>თავი 0 ქართულად</span>
-                </div>
-            </a>
-            </div>
+* {
+  box-sizing: border-box;
+}
 
-                <!---box-2-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/chainsawman.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>მხერხავიე</strong>
-                            <strong>Chainsaw Man/Chensō Man</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+ul {
+  list-style: none;
 
-                <!---box-3-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/onepiece.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>ვან პისი (ქართულად)</strong>
-                            <strong>One Piece (qartulad)</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+}
 
-                <!---box-4-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/deathnote.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>სიკვდილის დღიური</strong>
-                            <strong>Death Note</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+a{
+  text-decoration: none;
+}
 
-                <!---box-5-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/Jujutsukaisen.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>ჯუჯუცუ კაისენი</strong>
-                            <strong>Jujutsu Kaisen</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.4);
+  background-color: #222121;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
 
-            <!---box-6-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/mushishi.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>მუშიში</strong>
-                            <strong>Mushishi</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
-        </ul>
-    </section>
-    <!--mangebi-qartulad-------------------->
-    <section id="translatedmangas">
-        <h2 class="translatedmangas-heading">მანგები ქართულად</h1>
-            <ul id="autoWidth" class="row">
-                <!---box-1-------------------------->
-                    <!--lastupdate-box----------->
-            <div class="lastupdate-box">
-                <a href="https://mangage.co/will.html">
-                    <!--IMG-------------->
-                <div class="manga-image">
-                <div class="type">მანგა</div>
-                <img src="images/hellparadise.jpg">
-            </div>
-                <!--TEXT----------------->
-                <div class="lastupdate-box-text">
-                    <strong>ჯოჯოხეთის სამოთხე</strong>
-                    <strong>Hells Paradise/Jigokuraku</strong>
-                    <span>თავი 0 ქართულად</span>
-                </div>
-            </a>
-            </div>
+.logo img {
+  height: 50px;
+  width: 50px;
+}
 
-                <!---box-2-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/chainsawman.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>მხერხავიე</strong>
-                            <strong>Chainsaw Man/Chensō Man</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+nav .menu {
+  display: flex;
+}
 
-                <!---box-3-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/onepiece.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>ვან პისი (ქართულად)</strong>
-                            <strong>One Piece (qartulad)</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+nav .menu li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 0px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: aqua;
+  letter-spacing: 1px;
+}
 
-                <!---box-4-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/deathnote.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>სიკვდილის დღიური</strong>
-                            <strong>Death Note</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+.search {
+  width: 250px;
+  height: 40px;
+  background-color: #3d1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
 
-                <!---box-5-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/Jujutsukaisen.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>ჯუჯუცუ კაისენი</strong>
-                            <strong>Jujutsu Kaisen</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
+.search input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
 
-            <!---box-6-------------------------->
-                    <!--lastupdate-box----------->
-                    <div class="lastupdate-box">
-                        <a href="https://mangage.co/will.html">
-                            <!--IMG-------------->
-                        <div class="manga-image">
-                        <div class="type">მანგა</div>
-                        <img src="images/mushishi.jpg">
-                    </div>
-                        <!--TEXT----------------->
-                        <div class="lastupdate-box-text">
-                            <strong>მუშიში</strong>
-                            <strong>Mushishi</strong>
-                            <span>თავი 0 ქართულად</span>
-                        </div>
-                    </a>
-                    </div>
-        </ul>
-    </section>
-</body>
-</html>
+.search i{
+  color: #ff0000;
+}
+
+nav .menu li a:hover{
+  background-color: #181717;
+  color: wheat;
+  box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+  transition: all ease 0.2s;
+}
+
+#main {
+  padding-top: 80px;
+  background-color: #201e1e;
+}
+
+.row {
+  overflow: visible !important;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.lastupdate-box {
+  width: 220px;
+  height: 370px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  border-color: #202020;
+  border-radius: 2%;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 20px 30px  10px;
+  overflow: hidden;
+  float: left;
+}
+
+.lastupdate-box-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(238, 222, 222);
+}
+
+.lastupdate-box .lastupdate-box-text:hover {
+  color: #e3233e;
+}
+
+.lastupdate-box-text strong {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.lastupdate-box-text span {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #089e14;
+}
+
+.lastupdate-box:hover {
+  opacity: 0.4;
+  border-color: #001eff;
+  border-style: solid;
+  border-width: 4px;
+}
+
+.lastupdate-box img {
+  width: 220px;
+  height: 290px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.lastupdate-heading {
+  color: aqua;
+  padding-left: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+#translatedmangas {
+  border-top: 1px solid rgba(53,53,53,0.1);
+}
+
+.translatedmangas-heading {
+  color: aqua;
+  margin: 30px 30px 0px 30px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.type {
+  margin-left: 110px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: #d10fa7;
+  color: #000000;
+  padding: 0px 8px 3px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+nav .menu-btn {
+  display: none;
+}
+
+@media (max-width:1023px) {
+  nav {
+    justify-content: space-between;
+    height: 70px;
+    padding: 0px 10px; 
+  }
+
+  nav .menu {
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    background: #1f1e1e;
+    border-bottom: 4px solid #1a1919;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  nav .menu li a {
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin: 0px;
+    padding: 25px;
+    border: 1px solid #161616;
+  }
+
+  nav .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+    display: block;
+  }
+
+  nav .menu-icon .nav-icon {
+     background-color: #ff0000;
+     display: block;
+     height: 2px;
+     position: relative;
+     transition: background 0.2s ease-out;
+     width: 18px;
+  }
+
+  nav .menu-icon .nav-icon:before,
+  nav .menu-icon .nav-icon:after {
+    background: #ff0000;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all ease-out 0.2s;
+    width: 100%;
+  }
+
+  nav .menu-icon .nav-icon:before {
+     top:5px;
+  }
+
+  nav .menu-icon .nav-icon:after {
+    top:-5px;
+  }
+
+  nav .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+
+  nav .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  nav .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  nav .menu-btn {
+    display: none;
+  }
+
+  nav .menu-btn:checked ~ .menu {
+    display: block;
+  }
+}
