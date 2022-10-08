@@ -56,7 +56,7 @@ nav .menu li a {
 .search {
   width: 250px;
   height: 40px;
-  background-color: #3d1a1a;
+  background-color: #d6cbcb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +65,7 @@ nav .menu li a {
 }
 
 .search input {
+  color: #201c1c;
   width: 100%;
   height: 30px;
   border: none;
@@ -88,8 +89,20 @@ nav .menu li a:hover{
   background-color: #201e1e;
 }
 
+#mangaspace {
+  padding-top: 80px;
+  background-color: #201e1e;
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
+}
+
+#mangaspace img{
+  max-width: 1200px;
+}
 .row {
   overflow: visible !important;
+  padding: 5px;
 }
 
 .row::after {
@@ -100,7 +113,7 @@ nav .menu li a:hover{
 
 .lastupdate-box {
   width: 220px;
-  height: 370px;
+  height: 390px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
   border-color: #202020;
   border-radius: 2%;
@@ -154,7 +167,7 @@ nav .menu li a:hover{
 
 .lastupdate-heading {
   color: aqua;
-  padding-left: 30px;
+  padding-left: 20px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -167,7 +180,7 @@ nav .menu li a:hover{
 
 .translatedmangas-heading {
   color: aqua;
-  margin: 30px 30px 0px 30px;
+  margin: 30px 30px 0px 20px;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -199,33 +212,274 @@ nav .menu li a:hover{
   box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
 }
 
+.manga-info-box {
+  width: 320px;
+  height: 600px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  border-color: #202020;
+  border-radius: 2%;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 20px 30px  10px;
+  overflow: hidden;
+  float: left;
+}
+
+.manga-info-box-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(238, 222, 222);
+}
+
+.manga-info-box-text strong {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.manga-info-box-text p {
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+
+.manga-info-box-text span {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #089e14;
+}
+
+.manga-info-box img {
+  width: 320px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.manga-volume-box {
+  width: 160px;
+  height: 90px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  border-color: #202020;
+  background-color: #171618;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 20px 30px  10px;
+  overflow: hidden;
+  float: left;
+  border-color: #089e14;
+}
+
+.manga-volume-box:hover {
+  opacity: 0.4;
+  border-color: #e3233e;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.manga-volume-box-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(238, 222, 222);
+}
+
+.manga-volume-box .manga-volume-box-text:hover {
+  color: #4ae900;
+}
+
+.manga-volume-box-text strong {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.translatedchapter span {
+  color: #ac05ac;
+  line-height: 10px;
+}
+
+.manga-volume-box-text span {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+/*****************************/
+
+.eng-manga-volume-heading {
+  color: aqua;
+  margin: 30px 30px 0px 30px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.eng-manga-volume-box {
+  width: 160px;
+  height: 90px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  border-color: #202020;
+  background-color: #171618;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px 20px 30px  10px;
+  overflow: hidden;
+  float: left;
+  border-color: #089e14;
+}
+
+.eng-manga-volume-box:hover {
+  opacity: 0.4;
+  border-color: #e3233e;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.eng-manga-volume-box-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(238, 222, 222);
+}
+
+.eng-manga-volume-box .eng-manga-volume-box-text:hover {
+  color: #4ae900;
+}
+
+.eng-manga-volume-box-text strong {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.engchapter span {
+  color: #ac05ac;
+  line-height: 10px;
+}
+
+.eng-manga-volume-box-text span {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  display: block;
+  width: 17px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  padding: 0.1rem;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
+  background: #000000; 
+  border-right: none;
+  border-left: none;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: #161616; 
 }
 
 nav .menu-btn {
   display: none;
 }
 
-@media (max-width:1023px) {
+/*******a************/
+
+/* Style the header: fixed position (always stay at the top) */
+
+/* The progress container (grey background) */
+.progress-container {
+  top: 80px;
+  width: 100%;
+  height: 8px;
+  left: 0;
+  position: fixed;
+  background-color: #201c1c;
+  height: 30px;
+  opacity: 0.9;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #ff0000;
+  width: 0%;
+  position: fixed;
+  margin-top: 10px;
+}
+
+/***Next and Previous Buttons*****/
+.nextandpreviousbuttonscontainer {
+  padding: 50px;
+}
+
+.nextandpreviousbuttons a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-color: #000000;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.nextandpreviousbuttons a:hover {
+  background-color: #580e94;
+  color: rgb(0, 0, 0);
+  border-color: #000000;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.previous {
+  background-color: #580000;
+  color: rgb(199, 212, 212);
+  font-size: 1.5rem;
+  border-color: #ff0000;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.next {
+  background-color: #3c0a66;
+  color: rgb(199, 212, 212);
+  font-size: 1.5rem;
+  border-color: #ff0000;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+@media (max-width:1281px) {
   nav {
     justify-content: space-between;
     height: 70px;
@@ -314,5 +568,24 @@ nav .menu-btn {
 
   nav .menu-btn:checked ~ .menu {
     display: block;
+  }
+
+  #mangaspace img {
+      border: 0;
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #mangaspace {
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+    max-width: 1142px;
   }
 }
