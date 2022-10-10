@@ -344,6 +344,10 @@ nav .menu li a:hover{
   border-color: #089e14;
 }
 
+.eng-manga-volume-box .eng-manga-volume-box-text a:visited{
+  color: red;
+}
+
 .eng-manga-volume-box:hover {
   opacity: 0.4;
   border-color: #e3233e;
